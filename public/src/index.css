@@ -1,0 +1,216 @@
+* {
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+.main-contaner {
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	background-color: #202020;
+	padding: 20px 40px;
+	margin-top: 0;
+}
+
+.header-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logo-usuario-container {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.logo-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.logo-container img {
+	height: 60px;
+	border: 1px solid #fff;
+}
+
+.navegacion-principal {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.navegacion-principal ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.navegacion-principal ul li {
+	margin-right: 20px;
+}
+
+.navegacion-principal ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	transition: color 0.2s ease-in-out;
+}
+
+.navegacion-principal ul li a:hover {
+	color: #ff0000;
+}
+
+.usuario-container {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 50px;
+}
+
+.usuario-container a {
+	margin-right: 10px;
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	transition: color 0.2s ease-in-out;
+}
+
+.usuario-container a:hover {
+	color: #ff0000;
+}
+
+.marvel-stream {
+	padding: 15px 10px;
+	background-color: #151515;
+	display: flex;
+	justify-content: center;
+}
+
+.marvel-stream img {
+	width: 50px;
+	margin-left: 10px;
+}
+
+.marvel-stream p {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+}
+
+.marvel-carrusel {
+	position: relative;
+	overflow: hidden;
+}
+
+.marvel-carrusel img {
+	position: absolute;
+	z-index: -1;
+	object-fit: cover;
+	width: 100vw;
+	height: 300px;
+}
+
+.marvel-carrusel-texto {
+	z-index: 1;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+
+.marvel-carrusel-texto h6,
+.marvel-carrusel-texto h2,
+.marvel-carrusel-texto p {
+	margin-top: 40px;
+	margin-left: 30px;
+}
+
+.marvel-carrusel button {
+	padding: 10px 10px;
+	background-color: #e62429;
+	color: #fff;
+	border-radius: 10px;
+	border: none;
+	transition: 0.3s;
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.marvel-carrusel button:hover {
+	background-color: #b40607;
+	cursor: pointer;
+}
+
+.navegacion-secundaria {
+	background-color: #fff;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	z-index: 1;
+	top: -25px;
+	width: 900px;
+	margin-left: 200px;
+	border-radius: 10px;
+}
+
+.navegacion-secundaria ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.navegacion-secundaria ul li {
+	margin-right: 20px;
+}
+
+.navegacion-secundaria ul li a {
+	text-decoration: none;
+	color: #151515;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	transition: color 0.2s ease-in-out;
+}
+
+.navegacion-secundaria ul li a:hover {
+	color: #ff0000;
+}
+
+.deadpool {
+	color: #b40607;
+}
+
+.marvel-unlimited img {
+	background-size: cover;
+}
+
+.marvel-page {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 1000px;
+	width: 100%;
+	gap: 20px;
+}
+
+.marvel-page img {
+	width: 500px;
+	height: 100px;
+	border-radius: 10px;
+}
+
+.marvel-page h3,
+.marvel-page p {
+	margin: 10px;
+}
