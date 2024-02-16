@@ -11,6 +11,7 @@ class MarvelPage extends HTMLElement {
 	}
 
 	connectedCallback() {
+		//A ver si funciona
 		this.render();
 	}
 
